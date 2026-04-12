@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "better-than-frogs",
+	"version": "${version}",
+	"name": "Better Than Frogs",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"RatDotJar"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/better-than-frogs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.ratdotjar.btf.BetterThanFrogs"
+		],
+		"client": [
+			"io.github.ratdotjar.btf.client.BetterThanFrogsClient"
+		],
+		"fabric-datagen": [
+			"io.github.ratdotjar.btf.client.BetterThanFrogsDataGenerator"
+		]
+	},
+	"mixins": [
+		"better-than-frogs.mixins.json",
+		{
+			"config": "better-than-frogs.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
