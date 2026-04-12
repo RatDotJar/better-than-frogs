@@ -3,13 +3,12 @@
 	"id": "better-than-frogs",
 	"version": "${version}",
 	"name": "Better Than Frogs",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "idk",
 	"authors": [
 		"RatDotJar"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/RatDotJar/better-than-frogs"
 	},
 	"license": "MIT",
 	"icon": "assets/better-than-frogs/icon.png",
