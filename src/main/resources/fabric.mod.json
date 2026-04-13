@@ -21,7 +21,7 @@
 			"io.github.ratdotjar.btf.client.BetterThanFrogsClient"
 		],
 		"fabric-datagen": [
-			"io.github.ratdotjar.btf.client.BetterThanFrogsDataGenerator"
+          "io.github.ratdotjar.btf.client.datagen.BetterThanFrogsDataGenerator"
 		]
 	},
 	"mixins": [
