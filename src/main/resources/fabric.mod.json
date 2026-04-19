@@ -15,17 +15,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"io.github.ratdotjar.btf.BetterThanFrogs"
+			"io.github.ratdotjar.btf.Btf"
 		],
 		"client": [
-			"io.github.ratdotjar.btf.client.BetterThanFrogsClient"
+			"io.github.ratdotjar.btf.client.BtfClient"
 		],
 		"fabric-datagen": [
-          "io.github.ratdotjar.btf.client.datagen.BetterThanFrogsDataGenerator"
+          "io.github.ratdotjar.btf.client.datagen.BtfDataGenerator"
 		]
 	},
 	"mixins": [
-		"better-than-frogs.mixins.json",
+		"btf.mixins.json",
 		{
 			"config": "better-than-frogs.client.mixins.json",
 			"environment": "client"
